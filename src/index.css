@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer component {
+  .icon {
+    @apply text-2xl mb-5 hover:text-slate-50 transition-colors duration-300;
+  }
+}
+.active {
+  color: #fff;
+}
