@@ -1,4 +1,8 @@
-import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import {
+  Navigate,
+  RouterProvider,
+  createBrowserRouter,
+} from "react-router-dom";
 import SideBar from "./components/SideBar";
 import Movies from "./Pages/Movies";
 import Series from "./Pages/Series";
@@ -33,6 +37,10 @@ function App() {
       children: [
         {
           path: "/",
+          element: <Navigate replace to="home" />,
+        },
+        {
+          path: "home",
           element: <Home />,
         },
         { path: "movies", element: <Movies /> },

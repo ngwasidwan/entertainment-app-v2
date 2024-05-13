@@ -8,10 +8,13 @@ function Movies() {
   const moviesArr = movieData.filter((movie) => movie.Type === "movie");
 
   return (
-    <div className="grid grid-cols-4 gap-x-4 gap-y-10">
-      {moviesArr.map((movie) => (
-        <Movie key={movie.id} movie={movie} />
-      ))}
+    <div>
+      <p className="font-semibold text-lg mb-4">Movies</p>
+      <div className="grid grid-cols-4 gap-x-4 gap-y-10">
+        {moviesArr.map((movie) => (
+          <Movie key={movie.id} movie={movie} />
+        ))}
+      </div>{" "}
     </div>
   );
 }
