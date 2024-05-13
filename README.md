@@ -1,8 +1,13 @@
-# React + Vite
+ # Entertaiment app version 2
+Project was created using vite
+## Startup
+run the command 'npm run dev' in the terminal to start up the app
+## features
+you can search for movies, filter between movies and tv series, bookmark/unbookmark movies or tv series
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## objectives
+implementing 3rd party libraries to a react project
+project makes use of some external libraries like tailwindcss, react-router-dom.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### project was'nt based on learning design
+project is a challege taken from frontend mentor.
