@@ -24,7 +24,7 @@ function SideBar() {
       <div className="px-4 py-2 bg-slate-600 mt-4 rounded-xl">
         <MdMovie className="text-3xl text-red-500 mb-8 mt-5" />
         <nav className="text-slate-400">
-          <NavLink to="/">
+          <NavLink to="/home">
             <IoGridOutline className="icon" />
           </NavLink>
 
