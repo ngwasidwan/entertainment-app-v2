@@ -2,15 +2,15 @@ import Movie from "../components/Movie";
 import { useContext } from "react";
 import { DataContext } from "../App";
 
-function Bookmark() {
-  return (
-    <div>
-      <MoviesBookmark />
-    </div>
-  );
-}
+// function Bookmark() {
+//   return (
+//     <div>
+//       <MoviesBookmark />
+//     </div>
+//   );
+// }
 
-function MoviesBookmark() {
+function Bookmark() {
   const { movieData } = useContext(DataContext);
 
   const moviesBookmark = movieData.filter((movie) => movie.Bookmarked === true);
